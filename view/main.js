@@ -91,7 +91,7 @@ function showFormEdit(index) {
             </tr>
             <tr>
             <td>Image:</td>
-            
+
             <td><img src="${array[index].img}" alt="" style="width: 50px">
             <input type="text" value="${array[index].img}" id="image2"></td>
             </tr>
@@ -137,50 +137,50 @@ function showFormAdd() {
 }
 
 
-class Car {
-    speed;
-    mark;
-    price;
-    constructor(speedIn, markIn, priceIn) {
-        this.speed = speedIn;
-        this.mark = markIn;
-        this.price = priceIn;
-    }
-    setSpeed(speedIn) {
-        this.speed = speedIn;
-    }
-    setMark(markIn) {
-        this.mark = markIn;
-    }
-    setPrice(priceIn) {
-        this.price = priceIn;
-    }
-    getSpeed () {
-        return this.speed;
-    }
-    getMark() {
-        return this.mark;
-    }
-    getPrice() {
-        return this.price;
-    }
-    showAll() {
-        return `This is a ${this.mark} having a speed of ${this.speed} km/h
-       `;
-    }
-}
-pr
-
-function main() {
-    // Khởi tạo một đối tượng và gán vào car1
-    let car1 = new Car(200, 'Mercedes', 40000);
-    // Truy xuất giá trị của thuộc tính
-    alert(car1.mark);   // Mercedes
-    // hoặc
-    alert(car1.getMark());  // Mercedes
-    // Thay đổi giá trị của một thuộc tính
-    car1.setMark('Porsche');
-    alert(car1.getMark());  // Porsche
-}
-
-
+// class Car {
+//     speed;
+//     mark;
+//     price;
+//     constructor(speedIn, markIn, priceIn) {
+//         this.speed = speedIn;
+//         this.mark = markIn;
+//         this.price = priceIn;
+//     }
+//     setSpeed(speedIn) {
+//         this.speed = speedIn;
+//     }
+//     setMark(markIn) {
+//         this.mark = markIn;
+//     }
+//     setPrice(priceIn) {
+//         this.price = priceIn;
+//     }
+//     getSpeed () {
+//         return this.speed;
+//     }
+//     getMark() {
+//         return this.mark;
+//     }
+//     getPrice() {
+//         return this.price;
+//     }
+//     showAll() {
+//         return `This is a ${this.mark} having a speed of ${this.speed} km/h
+//        `;
+//     }
+// }
+// pr
+//
+// function main() {
+//     // Khởi tạo một đối tượng và gán vào car1
+//     let car1 = new Car(200, 'Mercedes', 40000);
+//     // Truy xuất giá trị của thuộc tính
+//     alert(car1.mark);   // Mercedes
+//     // hoặc
+//     alert(car1.getMark());  // Mercedes
+//     // Thay đổi giá trị của một thuộc tính
+//     car1.setMark('Porsche');
+//     alert(car1.getMark());  // Porsche
+// }
+//
+//

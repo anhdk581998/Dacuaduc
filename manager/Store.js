@@ -1,6 +1,5 @@
 class Store {
     listProduct;
-
     constructor() {
         this.listProduct = JSON.parse(localStorage.getItem('listProduct'));
     }
