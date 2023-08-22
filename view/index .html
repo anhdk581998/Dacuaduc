@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+
+</head>
+<body>
+<center>
+    <div id="form-add"></div>
+    <div id="form-edit"></div>
+    <h1>My Store</h1>
+    <button onclick="showFormAdd()">Add product</button>
+    <button onclick="search()">Search product</button>
+    <table border="1" cellspacing="0" cellpadding="5" style="margin-top: 30px">
+        <tr>
+            <th>STT</th>
+            <th>Name</th>
+            <th>Quality</th>
+            <th>Price</th>
+            <th>Image</th>
+            <th colspan="2">Action</th>
+        </tr>
+        <tbody id="result">
+        </tbody>
+    </table>
+</center>
+<script src="../manager/Store.js"></script>
+<script src="main.js"></script>
+<script src="../entity/Product.js"></script>
+</body>
+</html>
